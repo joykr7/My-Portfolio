@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Karmoker | Personal Portfolio</title>
+    
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- AOS Animations CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Linked Custom Stylesheet (or use style.css if separate) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold text-success" style="color: #008080 !important;" href="#">Joy Karmoker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link mx-2" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#about">About me</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#education">Education</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#skills" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Skills
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-menu-item nav-link px-3" href="#skills">Technical Skills</a></li>
+                            <li><a class="dropdown-menu-item nav-link px-3" href="#skills">Soft Skills</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link mx-2" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HOME SECTION -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h5 class="text-primary fw-bold text-uppercase">Welcome to my space</h5>
+                    <h1 class="display-4 fw-bold text-dark my-3">Hi, I'm <span class="text-primary">Joy Karmoker</span></h1>
+                    <p class="lead mb-4">My main interest lies in AI and Machine Learning. I also have a knowledge on web development</p>
+                    <a href="#projects" class="btn btn-custom">View My Work</a>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="/images/Joy.png" alt="Joy profile image" class="img-fluid rounded-circle shadow-lg profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. ABOUT ME SECTION -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="lead">I am an Information and Communication Technology student studying in Mawlana Bhashani Science and Technology University (MBSTU) </p>
+                    <p>As an ICT student I have a strong interest in Artificial Intelligence and Machine Learning. I love using Python to build intelligent algorithms and data-driven solutions, alongside my foundations in web development. Currently, I am focused on deepening my knowledge of ML models and exploring how AI can solve real-world problems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. NEW: EDUCATION SECTION -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title mb-5" data-aos="fade-up">Education</h2>
+            <div class="row g-4">
+                <!-- Degree Card 1 -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border border-1 rounded-3 h-100 bg-white shadow-sm">
+                        <div class="text-primary fw-bold mb-2"><i class="fa-solid fa-graduation-cap me-2"></i> 2023 - 2027</div>
+                        <h4 class="fw-bold">B.Sc. in Information and Communication Technology</h4>
+                        <p class="text-muted mb-0">Mawlana Bhashani Science and Technology University</p>
+                    </div>
+                </div>
+                <!-- Degree Card 2 -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 border border-1 rounded-3 h-100 bg-white shadow-sm">
+                        <div class="text-primary fw-bold mb-2"><i class="fa-solid fa-school me-2"></i> 2020 - 2022</div>
+                        <h4 class="fw-bold">Higher Secondary Certificate (HSC)</h4>
+                        <p class="text-muted mb-0">Birshrestha Noor Mohammad Public College</p>
+                        <p class="text-muted mb-0">Result : GPA 5.00</p>
+                    </div>
+                </div>
+                <!-- Degree Card 3 -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 border border-1 rounded-3 h-100 bg-white shadow-sm">
+                        <div class="text-primary fw-bold mb-2"><i class="fa-solid fa-school me-2"></i> 2016 - 2020</div>
+                        <h4 class="fw-bold">Secondary School Certificate (SSC)</h4>
+                        <p class="text-muted mb-0">Ghatail Government High School</p>
+                        <p class="text-muted mb-0">Result : GPA 5.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SKILLS SECTION -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="section-title mb-5" data-aos="fade-up">My Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">HTML5 / CSS3 / Bootstrap 5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">JavaScript (ES6+)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <!-- Added C/C++ Skill Box -->
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">C / C++</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Responsive Layout Design</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">UI Framework Integration</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <!-- Added Python Skill Box -->
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PROJECTS SECTION (UPDATED) -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title mb-5" data-aos="zoom-in">Recent Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1: To-Do List -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card project-card h-100">
+                        <img src="/images/todoapps-2048px-07030-2x1-1.webp" class="card-img-top" alt="To-Do List Interface">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Dynamic To-Do List</h5>
+                            <p class="card-text text-muted">A sleek productivity app featuring fluid task management, category filtering, and local data persistence for a seamless workflow.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Lost and Found System -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card project-card h-100">
+                        <img src="/images/lost-found-app-768x768.png" class="card-img-top" alt="Lost and Found Application UI">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Lost & Found Management System</h5>
+                            <p class="card-text text-muted">A community platform designed to report lost items, match missing claims, and track real-time discovery updates safely.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: Note Summarizer and Quiz Generator -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card project-card h-100">
+                        <img src="/images/Screenshot 2026-07-13 194540.png" class="card-img-top" alt="Note Summarizer and Quiz Generator UI">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Note Summarizer & Quiz Generator</h5>
+                            <p class="card-text text-muted">An intelligent EdTech tool that processes raw text notes into dense, structured summaries and automatically outputs interactive evaluation quizzes using LLM models.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. NEW: GALLERY SECTION -->
+    <section id="gallery" class="bg-light">
+        <div class="container">
+            <h2 class="section-title mb-5" data-aos="fade-up">Gallery</h2>
+            <div class="row g-3">
+                <!-- Gallery Item 1 -->
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="overflow-hidden rounded-3 shadow-sm position-relative ratio ratio-1x1">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400" alt="Workspace snapshot" class="img-fluid object-fit-cover transition-transform w-100 h-100">
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="overflow-hidden rounded-3 shadow-sm position-relative ratio ratio-1x1">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=400" alt="Design UI asset sketch" class="img-fluid object-fit-cover transition-transform w-100 h-100">
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="overflow-hidden rounded-3 shadow-sm position-relative ratio ratio-1x1">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=400" alt="Code lines background" class="img-fluid object-fit-cover transition-transform w-100 h-100">
+                    </div>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="overflow-hidden rounded-3 shadow-sm position-relative ratio ratio-1x1">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=400" alt="Modern desk layout" class="img-fluid object-fit-cover transition-transform w-100 h-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5" data-aos="zoom-in">
+                        <h2 class="section-title">Contact with Me</h2>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-5" data-aos="fade-right">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Email Me</h6>
+                                    <span class="text-muted small">joy@email.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7" data-aos="fade-left">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control py-2 shadow-none" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control py-2 shadow-none" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control py-2 shadow-none" rows="4" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center bg-dark text-light">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Joy Karmoker. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap, AOS Engine Execution JS JavaScript Bundles -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 100 });
+    </script>
+</body>
+</html>
